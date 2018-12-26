@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Righteous');
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Righteous');
+
+.dad {
+	background-color: white;
+	width: 450px;
+	padding: 15px;
+	display: flex;
+	margin: 0 auto;
+	background-color: #696969;
+	position: relative;
+	bottom: 770px;
+	border-radius: 5px;
+
+}
+
+.chilld {
+	padding: 15px;
+	background-color: #E5E3E2;
+	display: flex;
+	margin: 0 auto;
+}
+
+#button {
+	transition: all 0.7s ease;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#button:hover {
+	background-color: green;
+	cursor: pointer;
+	color: white;
+	border: inset 2px;
+	transition: all 0.7s ease;
+}
+
+.state {
+	display: flex;
+	justify-content: space-between;
+}
+
+.background {
+	background: url(https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif);
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+}
+
+label {	
+	font-size: 15pt;
+	font-family: 'Righteous', cursive;
+}
+
+span {
+	font-family: 'Righteous', cursive;
+	font-size: 17px;
+}
+
+input {
+	display: flex;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 15pt;
+	color: black;
+}
+
+p {
+	font-size: 500px;
+}
